@@ -20,12 +20,12 @@ export default {
                 </div>
             </div>
         </div>
-        <div class="container-fluid align-items-center">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-3 p-3 text-center">
-                    <img src="/public/logo.png" alt="">
+                <div class="col-3 mt-3">
+                    <img class="ms-3" src="/public/logo.png" alt="">
                 </div>
-                <div class="col-6 d-flex justify-content-center">
+                <div class="col-6 mt-3 d-flex justify-content-center">
                     <ul class="text-uppercase">
                         <li><a href="#">home</a></li>
                         <li><a href="#">about</a></li>
@@ -66,7 +66,7 @@ ul{
     font-size: 13px;
 }
 li{
-    margin-right: 8px;
+    margin-right: 35px;
 }
 a{
     color: black;
@@ -78,9 +78,16 @@ button{
     padding: 15px;
     font-size: 10px;
     width: 130px;
+    box-shadow: 10px 10px 15px #D2F9F0;
 }
 .fa-magnifying-glass{
     color: rgb(9,218,159);
 }
-
+header{
+    position: fixed;
+    width: 100%;
+}
+img{
+    max-width: 180px;
+}
 </style>
