@@ -1,1 +1,33 @@
 $main_font : 'Montserrat';
+
+.c-lgreen {
+    color: #00D9A5;
+}
+
+.line-container {
+    display: flex;
+}
+
+.line-s {
+    height: 5px;
+    background: rgb(9, 218, 159);
+    background: linear-gradient(273deg, rgba(9, 218, 159, 1) 0%, rgba(141, 224, 100, 1) 85%);
+    width: 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.line-l {
+    height: 5px;
+    background: rgb(9, 218, 159);
+    background: linear-gradient(273deg, rgba(9, 218, 159, 1) 0%, rgba(141, 224, 100, 1) 85%);
+    width: 50px;
+    border-radius: 20px;
+}
+
+.c-gradient-green {
+    background: rgb(9, 218, 159);
+    background: linear-gradient(180deg, rgba(9, 218, 159, 1) 0%, rgba(141, 224, 100, 1) 85%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

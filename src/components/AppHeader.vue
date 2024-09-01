@@ -76,7 +76,7 @@ button{
     background: linear-gradient(266deg, rgba(9,218,159,1) 0%, rgba(141,224,100,1) 100%);
     color: white;
     padding: 15px;
-    font-size: 10px;
+    font-size: 12px;
     width: 130px;
     box-shadow: 10px 10px 15px #D2F9F0;
 }

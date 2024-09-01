@@ -4,12 +4,12 @@ export default {
 }
 </script>
 <template>
-    <main>
+    <div class="jumbo">
         <div class="container">
             <div class="row">
                 <div class="col-6 mt-5 p-5">
-                    <div class="c-gradient-green ws-20 fs-5">17 years of experience</div>
-                    <h2>we are a <br> web design <span class="c-lgreen">agency</span></h2>
+                    <div class="c-gradient-green text-uppercase ws-20 fs-5">17 years of experience</div>
+                    <h2>We Are a <br> Web Design <span class="c-lgreen">Agency</span></h2>
                     <div class="line-container mt-4">
                         <div class="line-s"></div>
                         <div class="line-l"></div>
@@ -38,22 +38,16 @@ export default {
                 </div>
             </div>
         </div>
-    </main>
+    </div>
 </template>
 <style lang="scss" scoped>
-main{
+.jumbo{
     background-color: #FAFAFA;
-    overflow-x: hidden;
 }
 img{
     width: 820px;
 }
-.c-gradient-green{
-    background: rgb(9,218,159);
-    background: linear-gradient(180deg, rgba(9,218,159,1) 0%, rgba(141,224,100,1) 85%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 .ws-20{
     word-spacing: 10px;
 }
@@ -63,34 +57,21 @@ h2{
 hr{
     width: 50px;
 }
-.c-lgreen{
-    color: #00D9A5;
-}
-.line-container{
-    display: flex;
-}
-.line-s{
-    height: 5px;
-    background: rgb(9,218,159);
-    background: linear-gradient(273deg, rgba(9,218,159,1) 0%, rgba(141,224,100,1) 85%);
-    width: 1%;
-    border-radius: 30%;
-    margin-right: 5px;
-}
-.line-l{
-    height: 5px;
-    background: rgb(9,218,159);
-    background: linear-gradient(273deg, rgba(9,218,159,1) 0%, rgba(141,224,100,1) 85%);
-    width: 7%;
-    border-radius: 10%;
-}
 button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 10px;
+    width: 130px;
+}
+.jumbo button:hover{
     background: rgb(64,64,64);
     background: linear-gradient(90deg, rgba(64,64,64,1) 0%, rgba(22,22,22,1) 100%);
     color: white;
     padding: 15px;
     font-size: 10px;
     width: 130px;
+    transition: 10s;
 }
 ul{
     display: flex;
@@ -124,10 +105,17 @@ a{
 .slide li:first-of-type{
     background: rgb(9,218,159);
     background: linear-gradient(273deg, rgba(9,218,159,1) 0%, rgba(141,224,100,1) 85%);
-    width: 45px;
+    width: 50px;
     padding: 7px;
-    border-radius: 50%;
+    border-radius: 50px;
     text-align: center;
     color: white;
+}
+img{
+    width: 1150px;
+    height: 750px;
+    position: relative;
+    right: 200px;
+    bottom: 35px;
 }
 </style>

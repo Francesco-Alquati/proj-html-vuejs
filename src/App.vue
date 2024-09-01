@@ -1,11 +1,13 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
-import AppMain from './components/AppMain.vue';
+import AppJumbo from './components/AppJumbo.vue';
+import AppMainTop from './components/AppMainTop.vue';
 
 export default{
   components:{
     AppHeader,
-    AppMain,
+    AppJumbo,
+    AppMainTop
   }
 }
 </script>
@@ -15,7 +17,8 @@ export default{
     <AppHeader />
   </header>
   <main>
-    <AppMain />
+    <AppJumbo />
+    <AppMainTop />
   </main>
   <footer>
 
@@ -24,4 +27,5 @@ export default{
 
 <style lang="scss">
 @import './styles/generals.scss';
+
 </style>
