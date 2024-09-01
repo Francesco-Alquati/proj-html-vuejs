@@ -20,7 +20,7 @@ export default {
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid bg-white">
             <div class="row">
                 <div class="col-3 mt-3">
                     <img class="ms-3" src="/public/logo.png" alt="">
@@ -84,7 +84,8 @@ button{
     color: rgb(9,218,159);
 }
 header{
-    position: fixed;
+    position: relative;
+    z-index: 1;
     width: 100%;
 }
 img{
