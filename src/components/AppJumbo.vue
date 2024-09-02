@@ -7,7 +7,7 @@ export default {
     <div class="jumbo">
         <div class="container">
             <div class="row">
-                <div class="col-6 mt-5 p-5">
+                <div class="col-6 mt-140 p-5">
                     <div class="c-gradient-green text-uppercase ws-20 fs-5">17 years of experience</div>
                     <h2>We Are a <br> Web Design <span class="c-lgreen">Agency</span></h2>
                     <div class="line-container mt-4">
@@ -44,10 +44,6 @@ export default {
 .jumbo{
     background-color: #FAFAFA;
 }
-img{
-    width: 820px;
-}
-
 .ws-20{
     word-spacing: 10px;
 }
@@ -56,6 +52,9 @@ h2{
 }
 hr{
     width: 50px;
+}
+.mt-140{
+    margin-top: 140px;
 }
 button{
     background-color: black;
@@ -112,10 +111,11 @@ a{
     color: white;
 }
 img{
-    width: 1150px;
-    height: 750px;
-    position: relative;
-    right: 200px;
-    bottom: 35px;
+    width: 950px;
+    height: 650px;
+    position: absolute;
+    z-index: 0;
+    left: 650px;
+    bottom: 75px;
 }
 </style>

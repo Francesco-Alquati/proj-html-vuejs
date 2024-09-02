@@ -84,8 +84,8 @@ button{
     color: rgb(9,218,159);
 }
 header{
-    position: relative;
-    z-index: 1;
+    position: fixed;
+    z-index: 2;
     width: 100%;
 }
 img{
