@@ -8,8 +8,10 @@ export default {
         <div class="container-fluid">
             <div class="row">
                 <div class="col-6 mt-200 mb-200 p-100">
-                    <img class="img-top-a ms-2 architect" src="/images/busy-architect-PYVKWM4-1024x872.jpg" alt="">
-                    <img class="img-bottom-a architect" src="/images/busy-architect-PYVKWM4-1024x872.jpg" alt="">
+                    <div class="overlay">
+                        <img class="img-top-a ms-2 architect" src="/images/busy-architect-PYVKWM4-1024x872.jpg" alt="">
+                        <img class="img-bottom-a architect" src="/images/busy-architect-PYVKWM4-1024x872.jpg" alt="">
+                    </div>
                     <img class="img-top ms-4" src="/images/businesswoman-analysing-document-P8WSNMC-1024x820.jpg" alt="">
                     <img class="img-bottom" src="/images/businesswoman-analysing-document-P8WSNMC-1024x820.jpg" alt="">
                 </div>
@@ -69,5 +71,6 @@ img{
     background: rgb(9,218,156);
     background: linear-gradient(54deg, rgba(9,218,156,1) 8%, rgba(131,223,104,1) 81%);
 }
+
     
 </style>

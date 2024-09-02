@@ -90,6 +90,7 @@ img{
 }
 .square-img{
     margin-bottom: 3px;
+    
 }
 button{
     background: rgb(9,218,159);
@@ -100,6 +101,8 @@ button{
     width: 150px;
     box-shadow: 10px 10px 15px #D2F9F0;
 }
+.square-img:hover{
+     transform: scale(1.1);       
+}
 
-    
 </style>
