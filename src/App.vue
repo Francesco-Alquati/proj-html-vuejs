@@ -7,6 +7,8 @@ import AppMainBottom from './components/AppMainBottom.vue';
 import AppUsersReview from './components/AppUsersReview.vue';
 import AppNewsBlog from './components/AppNewsBlog.vue';
 import AppSponsor from './components/AppSponsor.vue';
+import AppFooterTop from './components/AppFooterTop.vue';
+import AppFooterBottom from './components/AppFooterBottom.vue';
 
 export default{
   components:{
@@ -18,6 +20,8 @@ export default{
     AppUsersReview,
     AppNewsBlog,
     AppSponsor,
+    AppFooterTop,
+    AppFooterBottom,
   }
 }
 </script>
@@ -36,7 +40,8 @@ export default{
     <AppSponsor/>
   </main>
   <footer>
-
+    <AppFooterTop />
+    <AppFooterBottom />
   </footer>
 </template>
 
