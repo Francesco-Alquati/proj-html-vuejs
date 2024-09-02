@@ -8,7 +8,10 @@ export default {
         <div class="container-fluid">
             <div class="row">
                 <div class="col-6 mt-200 mb-200 p-50">
-                    <img src="/images/businesswoman-analysing-document-P8WSNMC-1024x820.jpg" alt="">
+                    <img class="img-top-a ms-2 architect" src="/images/busy-architect-PYVKWM4-1024x872.jpg" alt="">
+                    <img class="img-bottom-a architect" src="/images/busy-architect-PYVKWM4-1024x872.jpg" alt="">
+                    <img class="img-top ms-4" src="/images/businesswoman-analysing-document-P8WSNMC-1024x820.jpg" alt="">
+                    <img class="img-bottom" src="/images/businesswoman-analysing-document-P8WSNMC-1024x820.jpg" alt="">
                 </div>
                 <div class="col-6 mt-200 mb-200 p-50">
                     <h2>learn more about <br> our <span class="c-lgreen">missions</span></h2>
@@ -26,6 +29,7 @@ export default {
 <style lang="scss" scoped>
 main{
     background-color: #F9F9F9;
+    position: relative;
 }
 h2{
     font-size: 40px;
@@ -43,8 +47,30 @@ button{
     box-shadow: 10px 10px 15px #D2F9F0;
 }
 img{
-    width: 100%;
-    border-radius: 10px;
+    width: 500px;
+    border-radius: 20px;
+    position: absolute;
+}
+.img-top{
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+}
+.img-bottom{
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+}
+.img-top-a{
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 70%);
+}
+.img-bottom-a{
+    clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
+}
+.architect{
+    left: -20px;
+    top: 244px;
+    filter: blur(1px); 
+}
+.img-gradient{
+    background: rgb(9,218,156);
+    background: linear-gradient(54deg, rgba(9,218,156,1) 8%, rgba(131,223,104,1) 81%);
 }
     
 </style>
