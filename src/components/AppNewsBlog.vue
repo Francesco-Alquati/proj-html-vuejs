@@ -46,7 +46,7 @@ export default {
             </div>
         </div>
         <!-- JOIN US SECTION -->
-        <div class="row mb-200">
+        <div class="row">
             <div class="col-6">
                 <div class="submit card">
                     <div class="c-lgrey mb-2">are you ready?</div>
@@ -140,10 +140,12 @@ button:hover{
 .submit{
     background: rgb(64,64,64);
     background: linear-gradient(90deg, rgba(64,64,64,1) 0%, rgba(22,22,22,1) 100%);
+    box-shadow: 1px 1px 20px rgb(158, 158, 158);
 }
 .start{
     background: rgb(9,218,156);
     background: linear-gradient(94deg, rgba(9,218,156,1) 19%, rgba(131,223,104,1) 81%);
+    box-shadow: 10px 10px 15px #b9fbeb;
 }
 input{
     width: 400px;
