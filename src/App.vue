@@ -4,6 +4,7 @@ import AppJumbo from './components/AppJumbo.vue';
 import AppMainTop from './components/AppMainTop.vue';
 import AppMainMiddle from './components/AppMainMiddle.vue';
 import AppMainBottom from './components/AppMainBottom.vue';
+import AppUsersReview from './components/AppUsersReview.vue';
 
 export default{
   components:{
@@ -12,6 +13,7 @@ export default{
     AppMainTop,
     AppMainMiddle,
     AppMainBottom,
+    AppUsersReview,
   }
 }
 </script>
@@ -20,11 +22,12 @@ export default{
   <header>
     <AppHeader />
   </header>
-  <AppJumbo />
   <main>
+    <AppJumbo />
     <AppMainTop />
     <AppMainMiddle />
     <AppMainBottom />
+    <AppUsersReview />
   </main>
   <footer>
 
