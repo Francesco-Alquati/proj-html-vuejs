@@ -13,7 +13,7 @@ export default {
                     <p class="mb-5">When it comes to barbequing, there are two main schools of thought for the techniques that you can use. Freshly scrambled eggs with applewood smoked bacon - are amazing!</p>
                     <img src="/images/businesswoman-analysing-document-P8WSNMC-1024x820.jpg" alt="">
                     <h5 class="text-uppercase">Lisa Durbin</h5>
-                    <div>client</div>
+                    <div>Client</div>
                 </div>
             </div>
         </div>
