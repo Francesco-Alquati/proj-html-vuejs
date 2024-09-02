@@ -7,13 +7,13 @@ export default {
     <main>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-6 mt-200 mb-200 p-50">
+                <div class="col-6 mt-200 mb-200 p-100">
                     <img class="img-top-a ms-2 architect" src="/images/busy-architect-PYVKWM4-1024x872.jpg" alt="">
                     <img class="img-bottom-a architect" src="/images/busy-architect-PYVKWM4-1024x872.jpg" alt="">
                     <img class="img-top ms-4" src="/images/businesswoman-analysing-document-P8WSNMC-1024x820.jpg" alt="">
                     <img class="img-bottom" src="/images/businesswoman-analysing-document-P8WSNMC-1024x820.jpg" alt="">
                 </div>
-                <div class="col-6 mt-200 mb-200 p-50">
+                <div class="col-6 mt-200 mb-200 p-100">
                     <h2>learn more about <br> our <span class="c-lgreen">missions</span></h2>
                     <div class="line-container mt-4">
                         <div class="line-s"></div>
@@ -34,16 +34,13 @@ main{
 h2{
     font-size: 40px;
 }
-.p-50{
-    padding: 100px;
-}
 button{
     background: rgb(9,218,159);
     background: linear-gradient(266deg, rgba(9,218,159,1) 0%, rgba(141,224,100,1) 100%);
     color: white;
     padding: 15px;
     font-size: 12px;
-    width: 130px;
+    width: 150px;
     box-shadow: 10px 10px 15px #D2F9F0;
 }
 img{

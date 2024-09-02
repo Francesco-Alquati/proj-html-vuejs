@@ -69,7 +69,7 @@ button{
     color: white;
     padding: 15px;
     font-size: 10px;
-    width: 130px;
+    width: 150px;
     transition: 10s;
 }
 ul{

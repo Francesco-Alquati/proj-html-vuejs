@@ -60,6 +60,9 @@ i{
     font-size: 15px;
     padding: 6px;
 }
+.bg-white i{
+    font-size: 20px;
+}
 ul{
     display: flex;
     align-items: center;
@@ -77,7 +80,7 @@ button{
     color: white;
     padding: 15px;
     font-size: 12px;
-    width: 130px;
+    width: 150px;
     box-shadow: 10px 10px 15px #D2F9F0;
 }
 .fa-magnifying-glass{
