@@ -61,7 +61,7 @@ button{
     color: white;
     padding: 15px;
     font-size: 10px;
-    width: 130px;
+    width: 150px;
 }
 .jumbo button:hover{
     background: rgb(64,64,64);
